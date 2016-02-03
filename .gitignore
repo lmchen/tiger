@@ -1,0 +1,104 @@
+##################
+## Git itself
+#################
+
+.git/
+
+#################
+## Multiple tools
+#################
+
+**/bin/
+**/build
+**/logs/
+**/out/
+*~
+
+#################
+## Eclipse
+#################
+
+.settings/
+tmp/
+*.bak
+*.classpath
+*.prefs
+*.project
+*.pydevproject
+*.swp
+*.tmp
+*~.nib
+.classpath
+.loadpath
+.metadata
+.project
+local.properties
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+#################
+## IntelliJ
+#################
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#################
+## NetBeans
+#################
+
+.nb-gradle-properties
+.nb-gradle/
+
+#################
+## Gradle
+#################
+
+gradle/wrapper/dists/
+.gradle/
+
+#################
+## Windows
+#################
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+#################
+## Mac OS
+#################
+
+.DS_Store
+
+#####################
+## Chef Workstation
+#####################
+
+.chef/
+
+#####################
+## Vagrant
+#####################
+
+.vagrant/
+
+#####################
+## Custom
+#####################
+
+*.class
